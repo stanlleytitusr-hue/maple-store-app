@@ -1,0 +1,1 @@
+Service model: PaaS (Platform as a Service). GitHub Pages hosts and serves the static site from the repo without me provisioning or managing any server, OS, or runtime.
