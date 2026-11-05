@@ -1,1 +1,10 @@
-Service model: PaaS (Platform as a Service). GitHub Pages hosts and serves the static site from the repo without me provisioning or managing any server, OS, or runtime.
+Deployment Platform Used: Firebase Hosting
+Service Model Category: PaaS
+Justification: I deploy my static files and the platform runs the web server, TLS, and CDN for me; I never provision or manage a server or OS.
+Region Deployed To: Global CDN (Firebase Hosting serves from Google's multi-region edge network; project default nam5)
+Public URL: https://maple-store-app-t1105465.web.app
+Did you manage any servers directly? No
+Did the platform handle OS patching and scaling automatically? Yes
+GitHub Pages Service Model: PaaS
+GitHub Pages Justification: GitHub builds and serves the static site from the repo over its own CDN with no server for me to manage.
+Key Difference Between GitHub Pages and Your Cloud Provider: GitHub Pages deploys straight from a Git branch and is best for static sites, while Firebase Hosting deploys via the Firebase CLI and adds configurable headers, custom 404 handling, and tighter integration with other cloud backend services.

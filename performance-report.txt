@@ -1,0 +1,9 @@
+Performance benchmark - Maple Cart (Firebase Hosting)
+curl -w loop (5 sequential requests, corrected %{...} format):
+Request 1 - HTTP 200 - Total time: 0.246045s
+Request 2 - HTTP 200 - Total time: 0.087416s
+Request 3 - HTTP 200 - Total time: 0.107536s
+Request 4 - HTTP 200 - Total time: 0.103903s
+Request 5 - HTTP 200 - Total time: 0.086320s
+First request slower (connection setup / cold edge); subsequent requests fast (CDN edge cache).
+Pingdom performance grade: (record from tools.pingdom.com test of the live URL)
